@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+    
+    android:background="@drawable/difficluty_sound_option_image"
+	
+    tools:context="com.asiftanmoy.tictactoe.DifficultyActivity" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:paddingTop="40dip" >
+	    
+	    
+	    
+	    <RadioGroup 
+	        android:id="@+id/RadioGroup2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="40dp"
+         android:orientation="vertical"
+	        
+	        >
+	    
+		    <RadioButton
+		        android:id="@+id/sound_on_button"
+		        android:layout_width="160dp"
+		        android:layout_height="50dp"
+		        android:layout_marginTop="30dp"
+		        android:layout_gravity="center_horizontal"
+		        android:background="@drawable/sound_on_button"
+		        
+		        
+		         android:onClick="select"
+		        
+		        />
+		    
+		    <RadioButton
+		        android:id="@+id/sound_off_button"
+		        android:layout_width="160dp"
+		        android:layout_height="50dp"
+		        android:layout_marginTop="50dp" 
+		        android:background="@drawable/sound_off_button"
+		         
+		         
+		          android:onClick="select"
+		       />
+		    
+		    
+		     
+		     
+		     </RadioGroup>
+		     
+		     
+</LinearLayout>
+    
+</LinearLayout>

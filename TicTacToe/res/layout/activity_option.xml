@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+	android:background="@drawable/optionactivity"
+    tools:context="com.asiftanmoy.tictactoe.OptionActivity" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    android:paddingTop="40dip" >
+	    
+		    <Button
+		        android:id="@+id/selecticon_button"
+		        android:layout_width="160dp"
+		        android:layout_height="50dp"
+		        android:layout_marginTop="30dp"
+		        android:layout_gravity="center_horizontal"
+		        android:background="@drawable/selecticon_image"
+		        />
+		    
+		    <Button
+		        android:id="@+id/difficulty_button"
+		        android:layout_width="160dp"
+		        android:layout_height="50dp"
+		        android:layout_marginTop="20dp" 
+		         android:background="@drawable/difficulty_image"
+		       />
+		    
+		     <Button
+		        android:id="@+id/sound_button"
+		        android:layout_width="160dp"
+		        android:layout_height="50dp"
+		        android:layout_marginTop="20dp" 
+		         android:background="@drawable/sound_image"
+		       />
+</LinearLayout>
+    
+</LinearLayout>

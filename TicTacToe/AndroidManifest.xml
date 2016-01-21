@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asiftanmoy.tictactoe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InstructionsActivity"
+            android:label="@string/title_activity_instructions"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DevelopersActivity"
+            android:label="@string/title_activity_developers"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AsifActivity"
+            android:label="@string/title_activity_asif" >
+        </activity>
+        <activity
+            android:name=".OptionActivity"
+            android:label="@string/title_activity_option"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TicTacToeActivity"
+            android:label="@string/title_activity_tic_tac_toe"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TicTacToeActivity2"
+            android:label="@string/title_activity_tic_tac_toe_activity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TicTacToeActivity3"
+            android:label="@string/title_activity_tic_tac_toe_activity3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelecticonActivity"
+            android:label="@string/title_activity_selecticon"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TicTacToeActivity1"
+            android:label="@string/title_activity_tic_tac_toe_activity1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TicTacToeActivity4"
+            android:label="@string/title_activity_tic_tac_toe_activity4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DifficultyActivity"
+            android:label="@string/title_activity_difficulty"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SoundActivity"
+            android:label="@string/title_activity_sound"
+              android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

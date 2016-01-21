@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/activity_tic_tac_toe.xml" />
+    </issue>
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/activity_tic_tac_toe.xml" />
+    </issue>
+</lint>

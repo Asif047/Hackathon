@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/background"
+    tools:context="com.asiftanmoy.tictactoe.MainActivity" >
+
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="end"
+      
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/start"
+            android:layout_marginTop="80dp"
+            
+            android:layout_marginRight="30dp"
+             />
+
+        <Button
+            android:id="@+id/instructions_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            
+             android:layout_marginRight="30dp"
+            android:background="@drawable/instructions"
+             />
+
+        <Button
+            android:id="@+id/options_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            
+             android:layout_marginRight="30dp"
+            android:background="@drawable/options"
+            />
+        
+          
+		        
+            	<Button
+		            android:id="@+id/developers_button"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		             android:layout_marginStart="20dp"
+		             
+		             android:layout_marginTop="35dp"
+		             
+		            android:layout_marginLeft="35dp"
+		            
+		             android:layout_marginRight="30dp"
+		            android:background="@drawable/developers"
+		            />
+            
+      
+
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>
